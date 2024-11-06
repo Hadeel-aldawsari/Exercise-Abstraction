@@ -15,12 +15,12 @@ public class MovablePoint implements Movable {
 
     @Override
     public void moveUp() {
-        System.out.println("Move Up:"+ (y-=ySpeed));
+        System.out.println("Move Up:"+ (y+=ySpeed));
     }
 
     @Override
     public void moveDown() {
-        System.out.println("Move Down:"+ (y+=ySpeed));
+        System.out.println("Move Down:"+ (y-=ySpeed));
 
     }
 
