@@ -22,7 +22,7 @@ public class Book extends Product {
 
     @Override
     public double getDiscount() {
-        return 20;
+         return super.getPrice()*0.30;
     }
 
 }
