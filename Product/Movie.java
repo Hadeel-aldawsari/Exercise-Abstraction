@@ -23,7 +23,7 @@ public class Movie extends Product{
 
     @Override
     public double getDiscount() {
-        if(director.equals("join"))return 20;
-        return 50;
+         if(director.equals("join"))return super.getPrice()*0.4;
+        return super.getPrice()*0.5;
     }
 }
